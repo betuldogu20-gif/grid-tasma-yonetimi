@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px minmax(0,1fr) 200px;
+    gap: 10px;
+    width: 100%; 
+}
+
+.sol{
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.orta{
+    background-color: lightcoral;
+    padding: 20px;
+   
+}
+
+.sag{
+    background-color: lightgreen;
+    padding: 20px;
+}
